@@ -1,26 +1,27 @@
 # 1. Translator
 
 ## a. Definition
-An S -> T translator accepts code expressed in source language S, and translates it to equivalent code expressed in another (target) language T
+A translator accepts code expressed in source language S, and translates it to equivalent code expressed in another (target) language T.
 
 ## b. Examples:
 
 * Compilers - translates high level code to low level code, e.g. Java -> JVM
 * Assemblers - translates assembly language code to machine code, e.g. x86as -> x86
-* High-level translators - translates code from one PL to another, e.g. Java -> C
+* High-level translators - translates code from one programming langage to another, e.g. Java -> C
 * Decompilers - translates low-level code to high-level code, e.g. Java JVM bytecode -> Java
 
 # 2. Interpreter
 
 ## a. Definition
 
-An S interpreter accepts code expressed in language S, and immediately executes that code. It works by fetching, analysing, and executing one instruction at a time.
+* An S interpreter accepts code expressed in language S, and immediately executes that code. 
+* It works by fetching, analysing, and executing one instruction at a time.
 
 ## b. Advantage
 
-- Great when user is entering instructions interactively (think Python) and would like to get the output before putting in the next instruction. 
-- Also useful when the program is to be executed only once 
-- or the program requires to be portable.
+* Great when user is entering instructions interactively (think Python) and would like to get the output before putting in the next instruction. 
+* Also useful when the program is to be executed only once. 
+* or the program requires to be portable.
 
 ## c. Disadvantages
 
