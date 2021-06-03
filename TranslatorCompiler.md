@@ -164,7 +164,7 @@ constexp int h = d;//no
 char myStr[f] = "Adam";//ok
 char str[c] ="Zouma";//no, c need to be constexp
 ```
-## b. Funtion
+## b. Function
 * Any function, doesn't need to be necessarly member function
 * Must have a single body return
 * Arguments: constexp leads to constexp return type, else no error but result is not constexp type
