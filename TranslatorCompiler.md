@@ -61,7 +61,7 @@ An interpretive compiler combines fast translation with moderately fast executio
 
 JDK provides an interpretive compiler for Java.
 
-# 4. Compile Time
+# 5. Compile Time
 
 ## a. Reference
 
@@ -76,7 +76,7 @@ When we punch in high-level/human-readable code this is, at first, useless! It m
 * A Syntax Error - how can your code be compiled into machine level instructions if they are ambiguous??
 * Your code needs to conform 100% to the syntactical rules of the language otherwise it cannot be compiled into working machine code.
 
-# 5. Run Time
+# 6. Run Time
 
 ## a. Reference
 
@@ -88,7 +88,7 @@ b. Example of run time error
 
 * Division by zero
 
-# 6. Illustration
+# 7. Illustration
 
 ## a. High Level Source code to Machine code
 
@@ -100,7 +100,7 @@ If you hand off your blueprint to the shipyard, and they find a defect while bui
 
 When your code compiles, it's like the ship being completed. Built and ready to go. When you execute your code, that's like launching the ship on a voyage. The passengers are boarded, the engines are running and the hull is on the water, so this is runtime. If your ship has a fatal flaw that sinks it on its maiden voyage (or maybe some voyage after for extra headaches) then it suffered a runtime error.
 
-# 7. const 
+# 8. const 
 
 ## a. Variable
 
@@ -144,7 +144,7 @@ p.getAge();//ok
 q.getAge();//error
 ```
 
-# 8. constexp
+# 9. constexp
 
 ## a. Variable
 * Any variable
